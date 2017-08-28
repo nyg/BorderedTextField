@@ -21,17 +21,18 @@ class CustomTextField : UITextField {
 
         borderLayer.borderColor = UIColor.red.cgColor
         borderLayer.borderWidth = borderWidth
-
         layer.addSublayer(borderLayer)
-        borderStyle = .none
-        clipsToBounds = true
+
+        borderStyle = .none // remove default borders
+        clipsToBounds = true // everything outside the frame is not drawn
+        contentMode = .redraw // to handle orientation change
     }
 
     override func draw(_ rect: CGRect) {
         borderLayer.frame = CGRect(
             x: -borderWidth,
             y: -borderWidth,
-            width: 5000, // makes it work in landscape mode too
+            width: rect.width + 2 * borderWidth,
             height: rect.height + borderWidth)
     }
     
