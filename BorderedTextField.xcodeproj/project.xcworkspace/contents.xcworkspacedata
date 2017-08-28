@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:CustomTextField.xcodeproj">
+      location = "self:/Users/user/Documents/dev/ios/CustomTextField/BorderedTextField.xcodeproj">
    </FileRef>
 </Workspace>

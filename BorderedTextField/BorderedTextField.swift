@@ -1,6 +1,6 @@
 //
 //  CustomTextField.swift
-//  UICustomTextField
+//  BorderedTextField
 //
 //  Created by nyg on 17 Apr 15.
 //  Copyright (c) 2015 nyg. All rights reserved.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class CustomTextField : UITextField {
+class BorderedTextField : UITextField {
 
     let borderWidth: CGFloat = 1
     let padding: CGFloat = 10
