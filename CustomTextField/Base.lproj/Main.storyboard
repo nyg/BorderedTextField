@@ -13,7 +13,7 @@
         <!--View Controller-->
         <scene sceneID="XFB-6H-K3s">
             <objects>
-                <viewController id="FZv-PW-pHX" customClass="ViewController" customModule="CustomTextField" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="FZv-PW-pHX" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="mL5-Ms-h41"/>
                         <viewControllerLayoutGuide type="bottom" id="E8i-5X-FZG"/>
@@ -23,22 +23,19 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uDW-or-Ue0" customClass="CustomTextField" customModule="CustomTextField" customModuleProvider="target">
-                                <rect key="frame" x="16" y="28" width="343" height="30"/>
+                                <rect key="frame" x="16" y="38" width="343" height="30"/>
                                 <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="uDW-or-Ue0" firstAttribute="top" secondItem="mL5-Ms-h41" secondAttribute="bottom" constant="8" id="9DO-DW-j9p"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="uDW-or-Ue0" secondAttribute="trailing" id="Shg-04-cct"/>
+                            <constraint firstItem="uDW-or-Ue0" firstAttribute="top" secondItem="mL5-Ms-h41" secondAttribute="bottom" constant="18" id="9DO-DW-j9p"/>
+                            <constraint firstItem="uDW-or-Ue0" firstAttribute="trailing" secondItem="iih-nq-2nx" secondAttribute="trailingMargin" id="Shg-04-cct"/>
                             <constraint firstItem="uDW-or-Ue0" firstAttribute="leading" secondItem="iih-nq-2nx" secondAttribute="leadingMargin" id="cfJ-R6-KBq"/>
                         </constraints>
                     </view>
-                    <connections>
-                        <outlet property="textField" destination="uDW-or-Ue0" id="fW6-Px-x4b"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OdZ-ix-dnp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
