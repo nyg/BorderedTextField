@@ -1,2 +1,2 @@
 # BorderedTextField
-Check `BorderedTextField/BorderedTextField.swift`
+Check `BorderedTextField/BorderedTextField.swift`.
