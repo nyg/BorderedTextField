@@ -1,9 +1,8 @@
 //
-//  CustomTextField.swift
+//  BorderedTextField.swift
 //  BorderedTextField
 //
-//  Created by nyg on 17 Apr 15.
-//  Copyright (c) 2015 nyg. All rights reserved.
+//  Created by nyg on 17.04.15.
 //
 
 import UIKit
